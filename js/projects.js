@@ -19,9 +19,13 @@ const projects = [
 },
 {
     title: "Clinic Management System",
-    image: "images/project3.jpg",
+    image: "images/clinic/report.jpeg",
     images: [
-        "images/project3.jpg"
+        "images/clinic/report.jpeg",
+        "images/clinic/patient_list.jpeg",
+        "images/clinic/add_medicine.jpeg",
+        "images/clinic/certificate.jpeg",
+        "images/clinic/certificate_output.jpeg"
     ],
     tech: "C# • PostgreSQL • .NET",
     description: "Designed and built a full desktop application for managing patient records, appointments, and prescriptions. Focused on building a clean, role-based UI that non-technical staff could use without training. Strengthened my skills in .NET desktop architecture and relational database design.",
@@ -30,14 +34,18 @@ const projects = [
 },
 {
     title: "AI Interview Question Generator",
-    image: "images/project1.jpg",
+    image: "images/interview/login.png",
     images: [
-        "images/project3.jpg"
+        "images/interview/login.png",
+        "images/interview/verify_code.png",
+        "images/interview/profile.png",        
+        "images/interview/generate.png",
+        "images/interview/session_history.png"
     ],
     tech: "Django • Gemini API • MySQL",
     description: "Web app that uses the Gemini API to generate interview questions tailored to a specific job role or topic. Users can save their question history, revisit past sessions, and export questions — making it a practical prep tool. Integrated a third-party LLM API and built user session management from scratch.",
     highlight: "AI Integration • Django • REST",
-    github: "#",
+    github: "https://github.com/PatelVishakha-07/InterviewPrepAI",
 }
 ];
 
