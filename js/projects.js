@@ -19,8 +19,9 @@ const projects = [
 },
 {
     title: "Clinic Management System",
-    image: "images/clinic/report.jpeg",
+    image: "images/clinic/login.png",
     images: [
+        "images/clinic/login.png",
         "images/clinic/report.jpeg",
         "images/clinic/patient_list.jpeg",
         "images/clinic/add_medicine.jpeg",
