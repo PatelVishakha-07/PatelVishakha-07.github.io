@@ -96,8 +96,26 @@
             <div class="container">
                 <div class="row align-items-center gy-5">
 
-                    <!-- Left Side: Copy & Actions -->
-                    <div class="col-lg-7 text-center text-lg-start">
+                    <!-- Right Side: Profile Card (shown first on mobile) -->
+                    <div class="col-lg-5 order-1 order-lg-2 d-flex justify-content-center">
+                        <div class="profile-card">
+                            <div class="profile-img-wrap">
+                                <img src="images/professional_pic.jpg" class="profile-image" alt="Vishakha Patel">
+                            </div>
+                            <div class="profile-card-info">
+                                <p class="profile-card-name">Vishakha Patel</p>
+                                <p class="profile-card-role">Software Developer</p>
+                                <div class="profile-card-tags">
+                                    <span>Python</span>
+                                    <span>Django</span>
+                                    <span>Flutter</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left Side: Copy & Actions (shown second on mobile) -->
+                    <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
 
                         <div class="hero-badge mb-4">
                             <span class="hero-badge-dot"></span>
@@ -131,7 +149,7 @@
                             <a href="https://github.com/PatelVishakha-07" class="hero-social-link" aria-label="GitHub">
                                 <i class="bi bi-github"></i>
                             </a>
-                            <a href="www.linkedin.com/in/patelvishakha-tech" class="hero-social-link" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/patel-vishakha-6796aa253/" class="hero-social-link" target="_blank" aria-label="LinkedIn">
                                 <i class="bi bi-linkedin"></i>
                             </a>
                             <a href="https://leetcode.com/u/patelvishakha-tech/" target="_blank" class="hero-social-link" aria-label="LeetCode">
@@ -141,26 +159,6 @@
                                 <i class="bi bi-envelope-fill"></i>
                             </a>
                         </div>
-                    </div>
-
-                    <!-- Right Side: Profile Card -->
-                    <div class="col-lg-5 d-flex justify-content-center">
-                        <div class="profile-card">
-                            <div class="profile-img-wrap">
-                                <img src="images/professional_pic.jpg" class="profile-image" alt="Vishakha Patel">
-                            </div>
-                            <div class="profile-card-info">
-                                <p class="profile-card-name">Vishakha Patel</p>
-                                <p class="profile-card-role">Software Developer</p>
-                                <div class="profile-card-tags">
-                                    <span>Python</span>
-                                    <span>Django</span>
-                                    <span>Flutter</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -541,8 +539,7 @@
                             <div class="contact-card">
 
                                 <form class="custom-form" id="contact-form">
-
-                                    <div class="row">
+                                    <div class="row gy-3">
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <div class="form-floating">
                                                 <input type="text" name="name" id="name"
