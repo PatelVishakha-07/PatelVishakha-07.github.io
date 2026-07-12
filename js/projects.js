@@ -35,7 +35,7 @@ const projects = [
 },
 {
     title: "AI Interview Question Generator",
-    image: "images/interview/login.png",
+    image: "images/interview/home1.png",
     images: [
         "images/interview/home1.png",
         "images/interview/home2.png",
